@@ -1,0 +1,129 @@
+header {
+  display: flex;
+  height: 100px;
+  place-items: center;
+}
+
+.menu {
+  height: 100px;
+  width: 100%;
+  align-content: center;
+}
+
+header a {
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 3%;
+  transition: .3s ease-in-out;
+  cursor: pointer;
+}
+
+header a:hover {
+  color: #4824ff;
+  filter: drop-shadow(0px 0px 50px #4824ff);
+}
+
+.btn {
+  height: 55px;
+  width: 222px;
+  border-radius: 55px;
+  background: #4824ff;
+  border: none;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  transition: .5s ease-in-out;
+  overflow: hidden;
+  margin-right: 2%;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn:hover {
+  filter: drop-shadow(0px 0px 55px #4824ff40);
+}
+
+.btn:before {
+  content: '';
+  position: absolute;
+  height: 300px;
+  width: 30px;
+  background: #ffffffbd;
+  filter: blur(2px);
+  transition: .7s;
+  transform: rotate(-20deg) translateX(-50px) translateY(-200px);
+}
+
+.btn:hover:before {
+  transform: rotate(-20deg) translateX(200px);
+}
+
+.icon {
+  height: 25%;
+  place-content: center;
+  padding: 1em;
+  border-radius: 50%;
+  background: black;
+  transition: .3s;
+  margin-right: 2%;
+}
+
+.icon.telegram:before {
+  content: url(../../../public/icons/telegram.png);
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-top: 50%;
+  margin-left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  object-fit: contain;
+}
+
+.icon.instagram:before {
+  content: url(../../../public/icons/instagram.png);
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-top: 50%;
+  margin-left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  object-fit: contain;
+}
+
+.icon:hover {
+  background: #4824ff;
+  filter: drop-shadow(0px 0px 55px #4824ff40);
+}
+
+.switch {
+  width: 135px;
+  height: 55px;
+  border-radius: 55px;
+  background-color: #eeebff;
+  overflow: hidden;
+}
+
+.theme {
+  margin: 2px;
+  width: 51px;
+  height: 51px;
+  border-radius: 55px;
+  background-color: black;
+  filter: invert();
+  transition: .5s ease-in-out;
+}
+
+.theme.light:before {
+  content: url(../../../public/icons/light.png);
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-top: 50%;
+  margin-left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  object-fit: contain;
+}
+
+.switch:hover > .theme.light {
+  transform: rotate(45deg);
+}

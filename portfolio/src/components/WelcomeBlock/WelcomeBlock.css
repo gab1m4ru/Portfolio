@@ -1,0 +1,39 @@
+.welcome-block {
+  height: 650px; 
+  display: flex;
+  place-items: center;
+  justify-content: space-between;
+}
+
+.welcome-block h1 {
+  font-size: 52px;
+  font-weight: 700;
+}
+
+.welcome-block h2 {
+  font-size: 42px;
+  font-weight: 450;
+}
+
+.welcome-block h3 {
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.title {
+  background: linear-gradient(to right, #4824ff, #4824ff, #85ebff, #85ebff, #85ebff, #4824ff, #4824ff);
+  background-clip: text;
+  color: transparent;
+  background-size: 200%;
+  animation: gradientAnimation 5s linear infinite;
+}
+
+@keyframes gradientAnimation {
+  0% { background-position: 200%, 50%; }
+  100% { background-position: 0%, 50%; }
+}
+
+.welcome-block .first-block {
+  align-content: center;
+  width: 55%;
+}
