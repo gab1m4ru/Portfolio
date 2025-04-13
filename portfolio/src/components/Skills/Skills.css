@@ -1,0 +1,38 @@
+.skills-block {
+  height: 500px;
+  margin-left: -5vw;
+  margin-right: -5vw;
+  padding: 0 5vw;
+  background: #fbfaff;
+  align-content: center;
+}
+
+.tag-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tag {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 500;
+  background: #eeebff;
+  color: #4824ff;
+  margin: 0 12px 12px 0;
+  padding: 8px 22px 8px 8px;
+  border-radius: 24px;
+}
+
+.tag .tag-icon {
+  content: url(../../../public/icons/check.png);
+  position: relative;
+  display: flex;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  padding: 0;
+  width: 50px;
+  background: none;
+  scale: .6;
+}
+

@@ -2,7 +2,7 @@ import React from 'react';
 import './index.css'
 import Header from './components/Header/Header'
 import WelcomeBlock from './components/WelcomeBlock/WelcomeBlock';
-import Services from './components/Services'
+import Skills from './components/Skills/Skills'
 
 const Main = ()  =>{
   return (
@@ -11,7 +11,7 @@ const Main = ()  =>{
 
       <WelcomeBlock></WelcomeBlock>
 
-      <Services></Services>
+      <Skills></Skills>
     </div>
   );
 }
