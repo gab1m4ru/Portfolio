@@ -5,8 +5,8 @@ const Footer = () => {
         <h3 className="text-md text-md py-4 px-6">find me in:</h3>
 
         <ul className="flex">
-          <li className="border-1 border-stroke p-4">**</li>
-          <li className="border-1 border-stroke p-4">**</li>
+          <li className="border-1 border-stroke px-6 py-4">**</li>
+          <li className="border-1 border-stroke px-6 py-4">**</li>
         </ul>
       </nav>
 
