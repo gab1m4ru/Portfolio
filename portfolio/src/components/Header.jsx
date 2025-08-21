@@ -7,7 +7,7 @@ const Header = () => {
         <h3 className="text-md text-md py-4 px-6">rostik-viter</h3>
 
         <ul className="flex">
-          <Link to={'/'} className="text-slate-50 border-1 border-stroke p-4 border-b-3 border-b-background hover:border-background/50 transition-colors duration-150 cursor-pointer">
+          <Link to={'/'} className="text-slate-50 border-1 border-stroke p-4 hover:border-background/50 transition-colors duration-150 cursor-pointer">
             _hello
           </Link>
           <Link to={'/about'} className="border-1 border-stroke p-4 hover:border-background/50 transition-colors duration-150 cursor-pointer">
